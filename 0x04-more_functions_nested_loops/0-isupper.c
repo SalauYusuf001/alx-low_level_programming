@@ -3,17 +3,17 @@
 
 int _isupper(int c)
 {
-    char upper = 'A';
-    int isupper = 0;
+    char upperToCheck = 'A';
+    int isupperV = 0;
     for (; upper <= 'Z'; upper++)
     {
-        if ( c == upper)
+        if ( c == upperToCheck)
         {
-            isupper = 1;
+            isupperV = 1;
             break;
         }
     }
 
-    return (isupper);
+    return (isupperV);
 }
 
